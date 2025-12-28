@@ -1,0 +1,22 @@
+# Compilados do Java (arquivos que o PC gera ao rodar)
+*.class
+*.jar
+*.war
+*.ear
+bin/
+target/
+
+# Configurações do VS Code
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# Logs e arquivos temporários
+*.log
+tmp/
+
+# Arquivos do Sistema Operacional
+Thumbs.db
+.DS_Store
