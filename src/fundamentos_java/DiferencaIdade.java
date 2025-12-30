@@ -3,7 +3,7 @@ package fundamentos_java;
 import java.util.Scanner;
 
 public class DiferencaIdade {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         var scanner = new Scanner(System.in);
 
@@ -14,5 +14,7 @@ public class DiferencaIdade {
         var diferencaIdade = Math.abs(idadeUsuario1 - idadeUsuario2);
 
         System.out.printf("A diferença de idade entre elas é: %d anos %n", diferencaIdade);
+
+        scanner.close();
     }
 }
