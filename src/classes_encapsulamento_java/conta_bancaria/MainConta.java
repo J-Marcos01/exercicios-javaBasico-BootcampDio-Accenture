@@ -8,10 +8,13 @@ public class MainConta {
     private static ArrayList<ContaBancaria> contas = new ArrayList<>();
 
     public static void main(String[] args) {
+        
         var scanner = new Scanner(System.in);
 
         while (true) {
+            
             System.out.println("=== Sistema Bancário ===");
+            System.out.println("Escolha uma opção: ");
             System.out.println("1. Criar nova conta");
             System.out.println("2. Consultar saldo");
             System.out.println("3. Consultar limite cheque especial");
@@ -19,7 +22,7 @@ public class MainConta {
             System.out.println("5. Sacar");
             System.out.println("6. Pagar Boleto");
             System.out.println("7. Sair");
-            System.out.print("Escolha uma opção: ");
+            
 
             var opcao = scanner.nextInt();
 
@@ -84,6 +87,7 @@ public class MainConta {
     }
 
     private static ContaBancaria buscarConta(Scanner scanner) {
+        
         System.out.print("Digite o número da conta: ");
         int numeroBusca = scanner.nextInt();
 
