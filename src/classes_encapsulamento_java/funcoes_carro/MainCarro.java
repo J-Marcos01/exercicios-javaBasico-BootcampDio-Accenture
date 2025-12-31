@@ -17,8 +17,9 @@ public class MainCarro {
             System.out.println("3. Acelerar");
             System.out.println("4. Diminuir Velocidade");
             System.out.println("5. Virar");
-            System.out.println("6. Mudar Marcha");
-            System.out.println("7. Sair");
+            System.out.println("6. Verificar Velocidade");
+            System.out.println("7. Mudar Marcha");
+            System.out.println("8. Sair");
 
             var opcao = scanner.nextInt();
 
@@ -46,7 +47,10 @@ public class MainCarro {
                     carro.mudarMarcha(novaMarcha);
                 }
                 case 7 -> {
-                    System.out.println("Encerrando...");
+                    System.out.println("Velocidade atual: " + carro.getVelocidade() + " km/h");
+                }
+                case 8 -> {
+                    System.out.println("Encerrando...");    
                     scanner.close();
                     return;
                 }
