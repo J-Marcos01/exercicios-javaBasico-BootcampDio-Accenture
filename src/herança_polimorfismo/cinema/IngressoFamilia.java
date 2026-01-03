@@ -16,7 +16,8 @@ public final class IngressoFamilia extends Ingresso {
     public void setNumeroPessoas(int numeroPessoas) {
         this.numeroPessoas = numeroPessoas;
     }
-
+    
+    @Override
     public double valorReal() {
         double valorTotal = this.valor * this.numeroPessoas;
         if (this.numeroPessoas > 3) {

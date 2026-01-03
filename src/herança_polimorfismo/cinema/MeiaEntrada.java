@@ -6,6 +6,7 @@ public final class MeiaEntrada extends Ingresso {
         super(valor, nomeFilme, dublado);
     }
 
+    @Override
     public double valorReal() {
         return this.valor / 2;
     }
