@@ -6,7 +6,7 @@ public final class ServicoEmail implements CanalNotificacao {
 
     @Override
     public void enviarMensagem(Mensagem mensagem) {
-        // Simulação de envio real
+        
         System.out.printf("[E-MAIL] Para: %s | Assunto: %s | Corpo: %s%n",
                 mensagem.destinatario(), mensagem.assunto(), mensagem.conteudo());
     }

@@ -1,6 +1,6 @@
 package classes_encapsulamento_java.conta_bancaria;
 
-import java.util.ArrayList; // Importamos a lista dinâmica
+import java.util.ArrayList; 
 import java.util.Scanner;
 
 public class MainConta {

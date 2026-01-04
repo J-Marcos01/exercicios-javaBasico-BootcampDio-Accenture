@@ -38,8 +38,8 @@ A organização das pastas segue os módulos oficiais da trilha para garantir um
 
 ## 👷 Autor
 **João Marcos**
-* **LinkedIn:** [Acessar Perfil](https://www.linkedin.com/in/joao-marcos-4a5351317/)
-* **GitHub:** [@J-Marcos01](https://github.com/J-Marcos01)
+* **LinkedIn:** [Acessar Perfil](https:
+* **GitHub:** [@J-Marcos01](https:
 
 ---
 *Este repositório faz parte da Talent Match da DIO para recrutadores da Accenture.*
